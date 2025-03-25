@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Refiner</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Resume Refiner - ATS Friendly DOCX</h1>
+        
+        <!-- Upload Form -->
+        <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="resume" accept=".pdf, .docx, .txt" required />
+            <button type="submit">Upload and Refine</button>
+        </form>
+
+        <!-- Result Section -->
+        <div id="result" style="display: none;">
+            <h3>✅ Your refined DOCX is ready!</h3>
+            <a id="downloadLink" href="#" download>Download Refined Resume</a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').onsubmit = async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData(e.target);
+            
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData,
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+                const downloadLink = document.getElementById('downloadLink');
+                downloadLink.href = result.file_url;
+                document.getElementById('result').style.display = 'block';
+            } else {
+                alert('Error processing the file.');
+            }
+        };
+    </script>
+</body>
+</html>
