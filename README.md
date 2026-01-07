@@ -1,3 +1,4 @@
+```markdown
 Perfect! Here’s the entire README in a single Markdown file that you can copy-paste directly as README.md into your repo:
 
 # RESUME-BUILDER
@@ -151,3 +152,4 @@ Open a pull request
 📄 License
 
 Specify license (MIT, Apache 2.0, etc.)
+```
