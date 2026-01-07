@@ -151,24 +151,3 @@ Open a pull request
 📄 License
 
 Specify license (MIT, Apache 2.0, etc.)
-
-✅ Summary
-
-This README explains:
-
-How to install and run the project
-
-How each file and function works
-
-How MD5 hashing is integrated for secure verification
-
-How to customize and contribute to the project
-
-It is written in a way that beginners can understand and replicate.
-
-
----
-
-If you want, I can **also generate a `requirements.txt` snippet** for this project so you can include it in the repo for copy-paste as well.  
-
-Do you want me to do that?
