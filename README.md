@@ -3,7 +3,9 @@ Perfect! Here’s the entire README in a single Markdown file that you can copy-
 
 # RESUME-BUILDER
 
-RESUME-BUILDER is a Python-based web application that allows users to create professional resumes quickly by filling out a simple web form. It generates a polished PDF resume and includes optional MD5 hashing of user data for verification purposes.
+RESUME-BUILDER is a Python-based web application that allows users to
+ create professional resumes quickly by filling out a simple web form.
+ It generates a polished PDF resume and includes optional MD5 hashing of user data for verification purposes.
 
 ---
 
@@ -13,7 +15,8 @@ This project is designed to make resume creation simple and efficient:
 
 - Users enter personal details, education, work experience, skills, and more via a web form.
 - The backend generates a downloadable PDF resume.
-- Optional MD5 hashing can be used to securely hash important data (like email or resume files) to verify integrity or avoid duplicates.
+- Optional MD5 hashing can be used to securely hash important data (like email or
+ resume files) to verify integrity or avoid duplicates.
 
 ---
 
