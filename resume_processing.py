@@ -8,7 +8,7 @@ import logging
 import argparse
 
 # ----------------------------
-# ⚙️ Configuration
+#  Configuration
 # ----------------------------
 OUTPUT_FOLDER = "output"
 

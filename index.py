@@ -25,7 +25,7 @@ def read_resume(file_path):
 
 
 # ----------------------------
-# 📚 Extract Text from PDF Files
+#  Extract Text from PDF Files
 # ----------------------------
 def read_pdf(file_path):
     try:

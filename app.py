@@ -9,7 +9,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # ----------------------------
-# 🔥 Serve Homepage
+#Serve Homepage
 # ----------------------------
 @app.route("/")
 def index():
@@ -17,7 +17,7 @@ def index():
 
 
 # ----------------------------
-# 📤 Handle File Upload and Process
+#  Handle File Upload and Process
 # ----------------------------
 @app.route("/upload", methods=["POST"])
 def upload_file():
@@ -42,7 +42,7 @@ def upload_file():
 
 
 # ----------------------------
-# 📥 Download Refined DOCX
+#  Download Refined DOCX
 # ----------------------------
 @app.route("/download/<filename>")
 def download_file(filename):
@@ -50,7 +50,7 @@ def download_file(filename):
 
 
 # ----------------------------
-# 🧠 Run Flask App
+#  Run Flask App
 # ----------------------------
 if __name__ == "__main__":
     app.run(debug=True)
