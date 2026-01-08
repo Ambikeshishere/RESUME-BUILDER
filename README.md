@@ -1,11 +1,10 @@
-```markdown
-Perfect! Here’s the entire README in a single Markdown file that you can copy-paste directly as README.md into your repo:
 
 # RESUME-BUILDER
 
 RESUME-BUILDER is a Python-based web application that allows users to
  create professional resumes quickly by filling out a simple web form.
- It generates a polished PDF resume and includes optional MD5 hashing of user data for verification purposes.
+ It generates a polished PDF resume and includes optional MD5 hashing of 
+ user data for verification purposes.
 
 ---
 
@@ -27,7 +26,8 @@ This project is designed to make resume creation simple and efficient:
 RESUME-BUILDER/
 ├── app.py # Starts the Flask server
 ├── index.py # Handles routing and form submission
-├── resume_processing.py # Processes form input, generates PDF, optionally hashes data
+├── resume_processing.py # Processes form input, generates PDF, optionally 
+    hashes data
 ├── md5_utils.py # Functions to compute MD5 hash
 ├── templates/ # HTML templates
 │ └── index.html # Form for entering resume details
@@ -51,7 +51,7 @@ RESUME-BUILDER/
 
 Install dependencies:
 
-```bash
+
 pip install -r requirements.txt
 
 🛠️ How It Works
@@ -155,4 +155,3 @@ Open a pull request
 📄 License
 
 Specify license (MIT, Apache 2.0, etc.)
-```
